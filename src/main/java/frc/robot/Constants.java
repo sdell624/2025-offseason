@@ -13,6 +13,11 @@ package frc.robot;
  * constants are needed, to reduce verbosity.
  */
 public final class Constants {
+  // Replay and simulation settings
+  public static final boolean isReplay = false;
+  public static final boolean resimWithTiming = false;
+  public static final boolean simLocalization = false;
+
   public static final String kCanivoreName = "";
   public static class OperatorConstants {
     public static final int kDriverControllerPort = 0;
